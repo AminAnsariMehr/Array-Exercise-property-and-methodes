@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Roboto:wght@300;400;500;700;900&display=swap');
+
+*,
+*::after,
+*::before {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    width: 100%;
+    min-height: 100vh;
+    padding: 50px;
+    background-color: #444;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 100px;
+}
+
+ul,
+li {
+    list-style: none;
+}
+
+div{
+    position: relative;
+}
+
+.examTitle{
+    padding: 7px 15px;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50% , -98%);
+    background-color: rgb(102, 19, 33);
+    color: #fff;
+    border-radius: 10px 10px 0 0;
+}
+
+.Ex1 {
+    width: 95%;
+    height: 100vh;
+    background-color: rgb(102, 19, 33);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Ex1>ul {
+    width: 95%;
+    height: 100%;
+    padding: 20px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2px;
+}
+
+.Ex1>ul>li {
+    width: 24%;
+    color: #fff;
+    font-size: 14px;
+    /* background-color: yellow; */
+}
